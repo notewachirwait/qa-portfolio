@@ -32,3 +32,19 @@ If you have the Live Server extension installed in VS Code, simply right-click `
 - **Profile Image**: Replace `profile_placeholder.png` with your own photo.
 - **Content**: Edit `index.html` to update your name, experience, and skills.
 - **Colors**: You can adjust the color variables in `style.css` (e.g., `--primary`, `--secondary`) to match your personal brand.
+
+## Deployment
+
+To host this portfolio on GitHub Pages:
+
+1.  Create a new repository on GitHub.
+2.  Push your code to the repository:
+    ```bash
+    git remote add origin <your-repo-url>
+    git branch -M main
+    git push -u origin main
+    ```
+3.  Go to your repository **Settings** > **Pages**.
+4.  Under **Source**, select `Deploy from a branch`.
+5.  Select `main` branch and `/ (root)` folder, then click **Save**.
+6.  Your site will be live at `https://<your-username>.github.io/<repo-name>/`.
